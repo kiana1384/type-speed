@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(34, 42, 45);
+  display: flex;
+  flex-flow: row;
+}
+section > div.one {
+  width: 15%;
+  background-color: rgb(25, 30, 34);
+  display: flex;
+  flex-flow: column;
+}
+section > div.one > div.item {
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+  margin-top: 30px;
+  border-top: 1px solid rgb(152, 151, 151);
+  border-bottom: 1px solid rgb(152, 151, 151);
+}
+section > div.one > div.item > h3 {
+  color: white;
+  margin-left: 18px;
+}
+section > div.one > div.item > p {
+  color: rgb(184, 179, 179);
+  margin-left: 18px;
+  font-size: 12px;
+}
+section > div.two {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+section > div.two > p.o {
+  width: 55%;
+  background-color: antiquewhite;
+  height: 65px;
+  font-size: 18px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+div.area > textarea#oo {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+}
+div.show {
+  width: 54%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+}
+button.ok {
+  width: 35px;
+  height: 25px;
+  border: 0px;
+  outline: 2px solid rgb(48, 64, 46);
+  box-shadow: 3px 3px 3px black;
+  border-radius: 10px;
+}
+
+button.reset {
+  width: 45px;
+  height: 25px;
+  border: 0px;
+  outline: 2px solid rgb(100, 41, 41);
+  box-shadow: 3px 3px 3px black;
+  border-radius: 10px;
+}
+
+div.timer {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(247, 255, 255);
+  text-align: center;
+  font-size: 26px;
+}
+div.butt {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
